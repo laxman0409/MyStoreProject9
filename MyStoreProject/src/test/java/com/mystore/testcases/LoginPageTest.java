@@ -46,7 +46,7 @@ public class LoginPageTest extends BaseClass {
 		homePage=loginPage.login(uname,pswd,homePage);
 	    String actualURL=homePage.getCurrURL();
 	    String expectedURL="http://automationpractice.com/index.php?controller=my-account";
-	    Log.info("Verifying if user is able to login ");
+	    Log.info("Verifying if user is able to login 1   ");
 	    Assert.assertEquals(actualURL, expectedURL);
 	    Log.info("Login is Sucess");
 	    Log.endTestCase("loginTest");
